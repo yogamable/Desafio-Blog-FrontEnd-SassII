@@ -1,0 +1,83 @@
+.main-login {
+    border-top: solid 3px #CCCCCC;
+}
+
+.contenedor-login {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-left: 8rem;
+    margin-right: 8rem;
+    text-align: center;
+}
+
+.bienvenido {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.bienvenido__titulo {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: $color-titulo;
+}
+
+.form-login {
+    display: block;
+}
+
+.recordarme-contraseña {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding-bottom: 1rem;
+}
+
+.recordarme__texto {
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.contraseña__texto {
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    color: #000000;
+    text-decoration: none;
+}
+
+.recordarme {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.div-registrate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding-bottom: 1rem;
+    
+}
+
+.div-registrate__texto {
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    color: #000;
+}
+
+.div-registrate__link {
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    color: #000;
+    text-decoration: none;
+}
+
+
+
+

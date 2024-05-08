@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Nicole Velásquez Baeza">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Blog Front-End - Login</title>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="div-brand">
+                <img class="nav__img" src="./assets/img/logos/adl.png" alt="logo blog front end" height="40">
+                <a class="nav__titulo" href="./index.html">Blog FrontEnd</a>
+            </div>
+
+            <div class="div-login-registro">
+                <a href="./login.html">Login</a>
+                <a href="./registro.html">Registrarme</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main-login">
+        <div class="contenedor-login">
+            <div class="bienvenido">
+                <h1 class="bienvenido__titulo">Bienvenido</h1>
+            </div>
+            <div class="login">
+                <form class="form-login">
+                    <div class="input-div">
+                        <input class="input" type="email" placeholder="  Email">
+                    </div>
+                    <div class="input-div">
+                        <input class="input" type="password" placeholder="  Contraseña">
+                    </div>
+                </form>
+            </div>
+            <div class="recordarme-contraseña">
+                <div class="recordarme">
+                    <input type="radio" name="Recordarme">
+                    <p class="recordarme__texto">Recordarme</p>
+                </div>
+                <div class="contraseña">
+                    <a class="contraseña__texto" href="#">¿Olvidaste tu contraseña?</a>
+                </div>
+            </div>
+            <div class="botones-login">
+                <div class="div-boton-iniciar">
+                    <button class="boton-iniciar">
+                        <a class="link-iniciar" href="./index.html">Iniciar sesión</a>
+                    </button>
+                </div>
+                <div class="div-boton-iniciar-google">
+                    <button class="boton-iniciar-google"><img class="boton-iniciar-google__img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSN-bxM4DCu48dtfvCOoOivY2WdrDBZfagGKXfo1Xf3g&s" alt="logo de google" height="20">
+                    <a class="link-iniciar" href="#">Iniciar sesión con Google</a>
+                    </button>
+                </div>
+            </div>
+            <div class="div-registrate">
+                <p class="div-registrate__texto">¿No tienes una cuenta?</p>
+                <a class="div-registrate__link" href="./registro.html">Registrate</a>
+            </div>
+        </div>
+        <div class="suscripcion">
+            <div class="div-suscripcion">
+                <div class="llamado-accion">
+                    <h2 class="llamado-accion__texto">Mantente actualizado sobre el <br> Desarrollo Front End</h2>
+                </div>
+                <div class="inscripcion">
+                    <div class="input">
+                        <input class="input-suscripcion" type="text">
+                    </div>
+                    <div class="boton-inscripcion">
+                        <button class="boton-suscripcion" type="submit">Suscríbete</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-brand">
+            <img class="footer-brand__img" src="./assets/img/logos/adl.png" alt="logo blog front end" height="40">
+            <a class="footer-brand__texto" href="./index.html">Blog FrontEnd</a>
+        </div>
+        <p class="footer__texto">Desafío Latam - 2023</p>
+    </footer>
+
+</body>
+</html>

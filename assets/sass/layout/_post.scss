@@ -1,0 +1,49 @@
+.main-post {
+    border-top: solid 3px #CCCCCC;
+}
+
+.post-article {
+    padding-left: 8rem;
+    padding-right: 8rem;
+    padding-top: 2rem;
+}
+
+.post-article-titulo {
+    padding-bottom: 1rem;
+}
+
+.div-autor-fecha {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    padding-bottom: 1rem;
+}
+
+.post-autor {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.div-texto-post {
+    background-color: $color-gris;
+    padding: 2rem;
+}
+
+
+.post-img {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+
+    img {
+        border-radius: 20px;
+    }
+}
+
+.post-relacionados {
+    display: flex;
+    align-items: center;
+    gap: 5rem;    
+    margin-top: 2rem;
+}

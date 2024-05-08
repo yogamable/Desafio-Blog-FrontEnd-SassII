@@ -1,0 +1,29 @@
+.header {
+    padding: 2rem 8rem;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .div-brand {
+        display: flex;
+        align-items: center;
+        gap: .5rem;
+    }
+
+    .div-login-registro {
+        display: flex;
+        align-items: center;
+        gap: 1.5rem;
+
+        a {
+            color: $color-titulo;
+            font-family: "Poppins", sans-serif;
+            font-weight: 300;
+            font-size: 20px;
+        }
+    }
+}
+

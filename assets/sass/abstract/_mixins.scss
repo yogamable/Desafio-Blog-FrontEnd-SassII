@@ -1,0 +1,18 @@
+@mixin boton($color-fondo, $color-texto){
+    background-color: $color-fondo;
+    color: $color-texto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    width: 298px;
+    height: 89px;
+    padding-left: 1rem;
+    padding-right: 1rem;    
+    margin-top: 2rem;
+    position: relative;
+
+    &:hover {
+        background-color: #bb52af;
+    }
+}

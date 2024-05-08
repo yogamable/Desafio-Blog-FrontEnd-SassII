@@ -1,0 +1,174 @@
+.main {
+    border-top: solid 3px #CCCCCC;
+}
+
+.seccion-novedades {
+    padding: 2rem 8rem;
+    display: block;
+}
+
+.div-titulo {
+    display: flex;
+}
+
+.entradas-novedades {
+    display: flex;
+    gap: 2rem;
+}
+
+.entrada-principal {
+    padding-top: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+}
+
+.entrada-principal__img {
+    height: 314px;
+    border-radius: 1rem;
+}
+
+.autor {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.autor__img {
+    border-radius: 10rem;
+    height: 60px;
+}
+
+.entrada-secundaria {
+    display: block;
+    justify-content: left;
+}
+
+.div-entrada-secundaria {
+    display: flex;
+    align-items: center;
+    padding-bottom: 1rem;
+    gap: rem;
+}
+
+.entrada-secundaria__img {
+    height: 145px;
+    width: 189px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.entrada-secundaria__texto {
+    padding-left: 1rem;
+}
+
+.autor {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    padding-top: 1.5rem;
+}
+
+.autor__img {
+    height: 40px;
+    width: 40px;
+    border-radius: 77px;
+}
+
+.tarjetas__img {
+    height: 200px;
+    width: 298px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.seccion-populares-categorias {
+    padding: 2rem 8rem;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 3px #CCCCCC;
+}
+
+.div-populares {
+    display: block;
+    padding-right: 4rem;
+}
+
+.tarjetas-div {
+    padding-right: 4rem;
+    display: block;
+    align-content: start;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    width: 298px;
+    padding-left: 1rem;
+    padding-right: 1rem;    
+    margin-top: 2rem;
+    position: relative;
+}
+
+.div-categorias {
+    display: block;
+    justify-content: right;
+}
+
+.categorias__cajas {
+    display: block;
+    justify-content: left;
+}
+
+.img__logo {
+    width: 85px;
+    height: 74px;
+    top: 914px;
+    left: 883px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.caja__html {
+    @include boton(#E93E30, $color-blanco);
+}
+
+.caja__js {
+    @include boton(#F7E018, $color-blanco);
+}
+
+.caja__css {
+    @include boton(#299ED5, $color-blanco);
+}
+
+.caja__react {
+    @include boton(#292C33, $color-blanco);
+}
+
+.caja__vue {
+    @include boton(#67C770, $color-blanco);
+}
+
+.caja__bootstrap {
+    @include boton(#563D7C, $color-blanco);
+}
+
+.nombre {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.categorias__texto {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-decoration: none;
+    color: #171717;
+
+    @include boton($color-blanco, $color-titulo);
+}
+
